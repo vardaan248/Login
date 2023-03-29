@@ -1,0 +1,60 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v5.0": {},
+    ".NETFramework,Version=v5.0/win7-x86": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v5.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\Vardaan\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Proj\\Login\\LoginWebAPI\\LoginWebAPI\\LoginWebAPI.csproj",
+      "projectName": "LoginWebAPI",
+      "projectPath": "D:\\Proj\\Login\\LoginWebAPI\\LoginWebAPI\\LoginWebAPI.csproj",
+      "packagesPath": "C:\\Users\\Vardaan\\.nuget\\packages\\",
+      "outputPath": "D:\\Proj\\Login\\LoginWebAPI\\LoginWebAPI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Vardaan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net50"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://kekaapp.pkgs.visualstudio.com/_packaging/Keka/nuget/v3/index.json": {},
+        "https://kekaapp.pkgs.visualstudio.com/_packaging/KekaOld/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net50": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net50": {
+        "targetAlias": "net5.0",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}
