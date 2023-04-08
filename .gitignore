@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/LoginWebAPI/LoginWebAPI/bin/Debug/net6.0
+/LoginWebAPI/.vs/LoginWebAPI/config
+/LoginWebAPI/.vs/LoginWebAPI/FileContentIndex
+/LoginWebAPI/.vs/LoginWebAPI/v17
+/LoginWebAPI/LoginWebAPI/obj/Debug/net6.0
+/LoginWebAPI/LoginWebAPI/appsettings.Development.json
+/LoginWebAPI/LoginWebAPI/appsettings.Development.json
+/LoginWebAPI/.vs/LoginWebAPI/DesignTimeBuild

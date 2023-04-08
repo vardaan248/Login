@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33423.256
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginWebAPI", "LoginWebAPI\LoginWebAPI.csproj", "{44860C6A-AE81-4D7C-A483-605EF5FBF057}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginWebAPI", "LoginWebAPI\LoginWebAPI.csproj", "{35BA3D31-111A-4E40-ACDD-A1E1DA10310D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{44860C6A-AE81-4D7C-A483-605EF5FBF057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{44860C6A-AE81-4D7C-A483-605EF5FBF057}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{44860C6A-AE81-4D7C-A483-605EF5FBF057}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{44860C6A-AE81-4D7C-A483-605EF5FBF057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35BA3D31-111A-4E40-ACDD-A1E1DA10310D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35BA3D31-111A-4E40-ACDD-A1E1DA10310D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35BA3D31-111A-4E40-ACDD-A1E1DA10310D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35BA3D31-111A-4E40-ACDD-A1E1DA10310D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D5858086-0E0A-4D04-9649-43E8F402647E}
+		SolutionGuid = {7EB189B8-4E16-4C5D-8037-57E26C25A4A9}
 	EndGlobalSection
 EndGlobal
