@@ -4,8 +4,9 @@ import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/signup/signup.component';
 
 const routes: Routes = [
-  {path: 'login', component: LoginComponent},
-  {path: 'signup', component: SignupComponent}
+  { path: '', redirectTo: 'login', pathMatch: 'prefix' },
+  { path: 'login', component: LoginComponent },
+  { path: 'signup', component: SignupComponent }
 ];
 
 @NgModule({
