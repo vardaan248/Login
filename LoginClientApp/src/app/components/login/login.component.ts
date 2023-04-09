@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
-import ValidateForm from 'src/app/helpers/validateForm';
+import { Router } from '@angular/router';
+
+import ValidateForm from '../../helpers/validateForm';
+import { AuthService } from '../../services/auth.service';
 
 @Component({
   selector: 'app-login',
@@ -14,8 +17,9 @@ export class LoginComponent implements OnInit {
   eyeIcon: string = 'fa-eye-slash';
   loginForm!: FormGroup;
 
-  constructor(private fb: FormBuilder) {
-
+  constructor(private fb: FormBuilder,
+    private authService: AuthService,
+    private router: Router) {
   }
 
   ngOnInit(): void {
@@ -26,19 +30,18 @@ export class LoginComponent implements OnInit {
   }
 
   hideShowPass() {
-    console.log(this.loginForm.controls['username'].dirty && this.loginForm.hasError('required', 'username'));
-
     this.showPassword = !this.showPassword;
     this.eyeIcon = this.showPassword ? 'fa-eye' : 'fa-eye-slash';
     this.type = this.showPassword ? 'text' : 'password';
   }
 
   onSubmit() {
-    if (this.loginForm.valid) {
-
-    }
-    else {
+    this.loginForm.valid ?
+      this.authService.login(this.loginForm.value).subscribe(d => { 
+        alert(d.message);
+        this.loginForm.reset();
+        this.router.navigate(['dashboard']);
+     }) :
       ValidateForm.validateForm(this.loginForm);
-    }
   }
 }
